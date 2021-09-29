@@ -6,7 +6,6 @@ import numpy as np
 
 trash_threshold = .2
 
-
 def normalize(img_arr):
     max_hu = 400.
     min_hu = -1000.
