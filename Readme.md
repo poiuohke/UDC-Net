@@ -1,7 +1,7 @@
 ## UDC-Net
 This is a implementation of the paper "Dual-Consistency Semi-Supervised Learning with Uncertainty Quantification for COVID-19 Lesion Segmentation from CT Images
 ".
-
+pdf link of the paper: https://arxiv.org/abs/2104.03225
 ```
 @article{li2021dual,
   title={Dual-Consistency Semi-Supervised Learning with Uncertainty Quantification for COVID-19 Lesion Segmentation from CT Images},
