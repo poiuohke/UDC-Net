@@ -1,6 +1,7 @@
-## UDC-Net
+# UDC-Net
 This is a implementation of the paper "Dual-Consistency Semi-Supervised Learning with Uncertainty Quantification for COVID-19 Lesion Segmentation from CT Images
 ".
+
 pdf link of the paper: https://arxiv.org/abs/2104.03225
 ```
 @article{li2021dual,
@@ -11,25 +12,26 @@ pdf link of the paper: https://arxiv.org/abs/2104.03225
 }
 ```
 
-###Lisence
 
-###Installation
+## Installation
 This repository is based on Pytorch 1.3.0
 
-###Usage
-####1. Clone the repository:
+## Usage
+
+### 1. Clone the repository:
 ```angular2html
 git clone https://github.com/poiuohke/UDC-Net
 cd UDC-Net
 ```
 
-####2. change the data path and hyper-parameters in ./configs/config.json
+### 2. change the data path and hyper-parameters in ./configs/config.json
 
-####3. Train the model:
+### 3. Train the model:
 ```angular2html
 python train.py
 ```
-####4. Inference
+
+### 4. Inference
 ```angular2html
 python inference.py --config ./configs/config.json --model trained_model_path --data_path test_data_path --mask_path test-mask_path
 ```
